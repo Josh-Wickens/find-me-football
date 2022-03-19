@@ -45,6 +45,8 @@ h1, h2, h3 {
 }
 
 
+
+
 /* navigation bar */
 
 .nav-bar {
@@ -92,6 +94,16 @@ a:visited {
       color: white;
   }
 
+
+  /* hero image for a large background of first page */
+  
+  #hero-image {
+      height: 1500px;
+      width: 100%;
+      background: url('../images/hero-image-stadium.jpg');  
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
 /* remove */
 
 p {
