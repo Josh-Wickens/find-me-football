@@ -124,6 +124,27 @@ a:active {
     position: absolute;
 }
 
+/* text describing the different pages of the website with clickable hyperlinks to them */
+
+#brief-page-descriptions {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.233);
+    color: black;
+    position: absolute;
+    top: 400px;
+    left: 35%;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    font-size: 150%;
+    border-radius: 25%;
+
+}
+
+
 /* remove */
 
 p {
