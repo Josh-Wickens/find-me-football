@@ -19,9 +19,9 @@ h1, h2, h3 {
 }
 
 .header-container {
-    background-color: aquamarine;
+    background-color: #3E4144;
     border: #303030 solid 2px;
-    height: 200px;
+    height: 150px;
     display: flex;
     justify-content: center;
     position: fixed;
