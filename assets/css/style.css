@@ -170,6 +170,18 @@ a:active {
 
 /* website description of what it is and what you can do */
 
+#website-description {
+    width: 100%;
+    height: 700px;
+    border: #303030 solid 4px;
+    font-size: 150%;
+}
+
+#website-description h2 {
+    text-align: center;
+    
+}
+
 #website-description span {
     font-family: permanent marker, playfair display, sans-serif;
 }
