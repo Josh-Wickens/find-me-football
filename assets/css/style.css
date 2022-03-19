@@ -137,6 +137,7 @@ a:active {
     left: 35%;
     justify-content: center;
     margin: 10px;
+    padding-right: 20px;
     align-items: center;
     width: 600px;
     height: 200px;
@@ -145,6 +146,23 @@ a:active {
 
 }
 
+.read-me-buttons {
+    display: inline-block;
+    font-size: 125%;
+}
+
+.read-me-buttons a {
+    border: black solid 2px;
+    font-size: 125%;
+    box-shadow: 3px 7px;
+    
+}
+
+.read-me-buttons a:hover {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 
 /* remove */
 
