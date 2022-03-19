@@ -17,7 +17,6 @@ body {
 
 h1, h2, h3 {
     font-family: playfair display, sans-serif;
-    color: #303030;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -30,6 +29,7 @@ h1, h2, h3 {
     justify-content: center;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 
@@ -103,6 +103,24 @@ a:visited {
       background: url('../images/hero-image-stadium.jpg');  
       background-size: contain;
       background-repeat: no-repeat;
+      position: relative;
+     
+  }
+      /* slogan for find me football. should be positioned under the flood light in the background. */
+
+      
+  #slogan {
+      display: flex;
+      color: white;
+      font-size: 150%;
+      top: 150px;
+      text-shadow: 2px 2px 5px white;
+    
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+    
+    position: absolute;
   }
 /* remove */
 
