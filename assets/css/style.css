@@ -82,10 +82,15 @@ a:visited {
     
   }
   
-  a:visited {
-    text-decoration: none;
+  a:hover {
+    background-color: black;
+    color: white;
   }
 
+  a:active {
+      background-color: green;
+      color: white;
+  }
 
 /* remove */
 
