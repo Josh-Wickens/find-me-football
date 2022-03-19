@@ -168,8 +168,8 @@ a:active {
     box-shadow: none;
 }
 
-/* remove */
+/* website description of what it is and what you can do */
 
-p {
-    font-size: 900%;
+#website-description span {
+    font-family: permanent marker, playfair display, sans-serif;
 }
