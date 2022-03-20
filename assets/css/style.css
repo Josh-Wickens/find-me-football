@@ -270,7 +270,6 @@ a:active {
 
 #review-container {
     background-color: black;
-    height: 750px;
     width: 100%;
     
 }
@@ -324,7 +323,7 @@ footer p {
 
 .social-media-links {
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .social-media-links > li {
@@ -356,4 +355,25 @@ footer p {
     #flexbox-reviews {
         flex-direction: column;
     }
+
+    footer {
+        margin: 0;
+    }
+
+  
+}
+
+
+
+
+
+@media screen and (max-width: 950px) {
+
+.social-media-links > li {
+    margin: 10px 25px;
+}
+footer p {
+    padding-top: 10px;
+    font-size: 100%;
+}
 }
