@@ -319,5 +319,11 @@ footer {
 
 .social-media-links i {
     font-size: 300%;
-    border: none;
+    color: white;
+    
 }
+
+.social-media-links i:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.5);
