@@ -303,14 +303,25 @@ a:active {
     font-style: italic;
 }
 
+/* footer and social media links*/
+
 footer {
     height: 150px;
     width: 100%;
     background-color: #3E4144;
 }
 
+footer p {
+    color: white;
+    font-size: 120%;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    padding-top: 20px;
+}
+
 .social-media-links {
     text-align: center;
+    margin-top: 20px;
 }
 
 .social-media-links > li {
@@ -330,3 +341,4 @@ footer {
     transform: scale(1.5);
     
 }
+
