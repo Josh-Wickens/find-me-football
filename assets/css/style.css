@@ -35,7 +35,7 @@ h3 {
 .body-container {
     width: 100%;
     overflow-x: hidden;
-    
+
 }
 
 .header-container {
@@ -46,7 +46,7 @@ h3 {
     position: fixed;
     width: 100%;
     z-index: 1000;
-    
+
 }
 
 /* logo */
@@ -61,7 +61,7 @@ h3 {
     text-shadow: 2px 2px 5px black;
     text-decoration: none;
     max-width: 100%;
-    
+
 }
 
 
@@ -88,7 +88,7 @@ h3 {
     letter-spacing: 3px;
     margin: 10px;
     text-decoration: none;
-    
+
 
 }
 
@@ -144,7 +144,7 @@ a:active {
     justify-content: center;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.212);
-    
+
 }
 
 /* text describing the different pages of the website with clickable hyperlinks to them */
@@ -172,16 +172,16 @@ a:active {
 .read-me-buttons {
     display: inline-block;
     font-size: 125%;
-    
+
 }
 
 .read-me-buttons a {
     border: black solid 2px;
     font-size: 125%;
     box-shadow: 3px 7px;
- 
+
     letter-spacing: 3px;
-    
+
 }
 
 .read-me-buttons a:hover {
@@ -192,23 +192,31 @@ a:active {
 
 /* website description of what it is and what you can do */
 
-#website-description {
+#description-heading-container {
+    width: 100%;
+    height: 150px;
     display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#website-description {
+    
     height: 700px;
     border: #303030 solid 4px;
     font-size: 150%;
-    margin: 20px 200px 200px 200px; 
-    position: relative;
+    margin: 20px 200px 200px 200px;
     justify-content: center;
-    align-items: flex-start;
     ;
- 
+
 }
 
 #website-description h2 {
     text-align: center;
-    font-size: 200%;
-    
+    font-size: 250%;
+    margin-top: 100px;
+
 }
 
 #website-description span {
@@ -217,45 +225,44 @@ a:active {
 
 /*images inside the website description*/
 
-#description-heading-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+
+
+#what-is-fmf-image-top-left img {
+    float: left;
     
-}
-
-#description-heading-container h2{
-    flex: 3;
-}
-
-#what-is-fmf-image-top-left img{
+    
     width: 200px;
     height: 250px;
     padding: 10px 10px 20px 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
-    margin-top: 50px;
-    -ms-transform: rotate(-8deg); /* IE 9 */
-    -webkit-transform: rotate(-8deg); /* Safari */
+    
+    -ms-transform: rotate(-8deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-8deg);
+    /* Safari */
     transform: rotate(-8deg);
-    flex: 1;
-    
     
 
-    
-  }
 
- #what-is-fmf-image-top-right img {
+
+
+}
+
+#what-is-fmf-image-top-right img {
+    float: right;
+    
     width: 200px;
     height: 250px;
     padding: 10px 10px 20px 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
-    margin-top: 50px;
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Safari */
+    
+    -ms-transform: rotate(7deg);
+    /* IE 9 */
+    -webkit-transform: rotate(7deg);
+    /* Safari */
     transform: rotate(7deg);
-    flex: 1;
- }
+}
