@@ -315,6 +315,7 @@ footer {
 
 .social-media-links > li {
     display: inline;
+    margin: 5px 50px;
 }
 
 .social-media-links i {
@@ -327,3 +328,5 @@ footer {
     background-color: white;
     color: black;
     transform: scale(1.5);
+    
+}
