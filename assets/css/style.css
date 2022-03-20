@@ -88,6 +88,7 @@ h3 {
     letter-spacing: 3px;
     margin: 10px;
     text-decoration: none;
+    
 
 }
 
@@ -96,6 +97,7 @@ li>a {
     background-color: #dddddd;
     padding: 5px;
     border-radius: 25px;
+    border: black solid 3px;
 
 }
 
@@ -170,12 +172,18 @@ a:active {
 .read-me-buttons {
     display: inline-block;
     font-size: 125%;
+    padding: 5px;
+    margin: 5px;
+    letter-spacing: 3px;
 }
 
 .read-me-buttons a {
     border: black solid 2px;
     font-size: 125%;
     box-shadow: 3px 7px;
+    padding: 5px;
+    margin: 5px;
+    letter-spacing: 3px;
     
 }
 
