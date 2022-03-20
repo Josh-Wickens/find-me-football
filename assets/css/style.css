@@ -207,7 +207,7 @@ a:active {
     border: #303030 solid 4px;
     border-width: 3px 3px 5px 5px;
     border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-    padding: 20px;
+    padding: 30px;
     font-size: 150%;
     margin: 20px 200px 20px 200px;
     justify-content: center;
@@ -275,4 +275,13 @@ a:active {
     background-color: black;
     height: 750px;
     width: 100%;
+    
+}
+
+#review-container h2 {
+    color: white;
+    font-size: 400%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
