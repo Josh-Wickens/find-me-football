@@ -289,6 +289,7 @@ a:active {
 #flexbox-reviews {
     display: flex;
     justify-content: space-between;
+    contain: content;
 }
 
 .reviews {
@@ -299,5 +300,8 @@ a:active {
     border-width: 3px 3px 5px 5px;
     border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
     width: 500px;
-    height: 300px;
+}
+
+.reviews span {
+    font-style: italic;
 }
