@@ -206,10 +206,10 @@ a:active {
     height: 750px;
     border: #303030 solid 4px;
     border-width: 3px 3px 5px 5px;
-  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
-  padding: 20px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    padding: 20px;
     font-size: 150%;
-    margin: 20px 200px 200px 200px;
+    margin: 20px 200px 20px 200px;
     justify-content: center;
 
 
@@ -267,4 +267,12 @@ a:active {
     margin-top: 200px;
     padding: 20px;
     text-align: center;
+}
+
+/* review section */
+
+#review-container {
+    background-color: black;
+    height: 750px;
+    width: 100%;
 }
