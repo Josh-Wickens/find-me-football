@@ -169,8 +169,12 @@ a:active {
 
 }
 
+.brief-headings {
+    display: inline
+}
+
 .read-me-buttons {
-    display: inline-block;
+    display: inline;
     font-size: 125%;
 
 }
@@ -313,7 +317,6 @@ footer {
 
 footer p {
     color: white;
-    font-size: 120%;
     text-shadow: 2px 2px 5px black;
     text-align: center;
     padding-top: 20px;
@@ -351,16 +354,22 @@ footer p {
 /* For screen sizes 1250px wide and down */
 
 @media screen and (max-width: 1250px) {
+
+    #slogan {
+        width: 75%;
+    }
+    
     
     #flexbox-reviews {
         flex-direction: column;
+        align-items: center;
     }
+    
 
     footer {
         margin: 0;
     }
 
-  
 }
 
 
