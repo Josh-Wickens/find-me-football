@@ -172,17 +172,14 @@ a:active {
 .read-me-buttons {
     display: inline-block;
     font-size: 125%;
-    padding: 5px;
-    margin: 5px;
-    letter-spacing: 3px;
+    
 }
 
 .read-me-buttons a {
     border: black solid 2px;
     font-size: 125%;
     box-shadow: 3px 7px;
-    padding: 5px;
-    margin: 5px;
+ 
     letter-spacing: 3px;
     
 }
@@ -196,22 +193,69 @@ a:active {
 /* website description of what it is and what you can do */
 
 #website-description {
-    width: 50%;
+    display: flex;
     height: 700px;
     border: #303030 solid 4px;
     font-size: 150%;
-    margin: 0px 200px 200px 200px; 
+    margin: 20px 200px 200px 200px; 
     position: relative;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    ;
  
 }
 
 #website-description h2 {
     text-align: center;
+    font-size: 200%;
     
 }
 
 #website-description span {
     font-family: permanent marker, playfair display, sans-serif;
 }
+
+/*images inside the website description*/
+
+#description-heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+#description-heading-container h2{
+    flex: 3;
+}
+
+#what-is-fmf-image-top-left img{
+    width: 200px;
+    height: 250px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-top: 50px;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+    flex: 1;
+    
+    
+
+    
+  }
+
+ #what-is-fmf-image-top-right img {
+    width: 200px;
+    height: 250px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-top: 50px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+    flex: 1;
+ }
