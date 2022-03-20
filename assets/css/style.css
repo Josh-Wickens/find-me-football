@@ -345,3 +345,15 @@ footer p {
     
 }
 
+
+
+
+
+/* For screen sizes 1250px wide and down */
+
+@media screen and (max-width: 1250px) {
+    
+    #flexbox-reviews {
+        flex-direction: column;
+    }
+}
