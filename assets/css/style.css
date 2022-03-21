@@ -378,14 +378,23 @@ width: 100%;
 }
 
 .flex-text-right {
-    color: white;
-
-}
-
-.flex-img-left img {
     
-}
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 125%;
 
+}
+    
+
+.game-info-flex {
+    border: white solid 2px;
+    padding: 5px;
+}
+#game-info-container {
+    display: flex;
+
+}
 
 
 
