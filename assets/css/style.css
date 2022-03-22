@@ -7,6 +7,11 @@
     border: none;
 }
 
+.signup-hyperlink {
+    color: blue;
+    text-shadow: red;
+}
+
 a {
     text-decoration: none;
 }
@@ -49,6 +54,11 @@ h3 {
     width: 100%;
     z-index: 1000;
 
+}
+
+.signup-hyperlink {
+    color: blue;
+    text-shadow: red;
 }
 
 /* logo */
