@@ -399,6 +399,9 @@ width: 100%;
 .game-info-flex h2 {
     text-shadow: 2px 2px 5px white;
 }
+
+/* game schedule in the form of a table */
+
 table {
     width: 100%;
     margin-top: 50px;
@@ -409,6 +412,16 @@ th {
 table, th, td {
     border: white solid 4px;
     
+}
+
+th, td {
+    padding: 10px 0;
+}
+
+/* link to sign up below schedule */
+
+.flex-text-right h4 {
+    margin-top: 50px;
 }
 
 
