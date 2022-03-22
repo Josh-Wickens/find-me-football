@@ -399,7 +399,17 @@ width: 100%;
 .game-info-flex h2 {
     text-shadow: 2px 2px 5px white;
 }
-
+table {
+    width: 100%;
+    margin-top: 50px;
+}
+th {
+    background-color: #3E4144;
+}
+table, th, td {
+    border: white solid 4px;
+    
+}
 
 
 
