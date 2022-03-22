@@ -7,10 +7,6 @@
     border: none;
 }
 
-.signup-hyperlink {
-    color: blue;
-    text-shadow: red;
-}
 
 a {
     text-decoration: none;
@@ -384,7 +380,14 @@ footer p {
 }
 
 .flex-img-left {
-width: 100%;
+max-width: 735px;
+
+}
+
+.find-images {
+    contain: size;
+    width: 735px;
+    height: 1010px;
 }
 
 .flex-text-right {
@@ -498,4 +501,9 @@ footer p {
     height: 1000px;
     background-color: darkblue;
     font-size: larger;
+
+
+    contain: size;
+    width: 735px;
+    height: 1000px;
 }
