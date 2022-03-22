@@ -385,6 +385,11 @@ width: 100%;
     font-size: 125%;
 
 }
+
+
+.flex-text-right p {
+    padding-top: 50px;
+}
     
 
 .game-info-flex {
@@ -392,13 +397,22 @@ width: 100%;
     padding: 5px;
 }
 #game-info-container {
+    padding-top: 50px;
     display: flex;
 
 }
 
 .game-info-flex h2 {
+
     text-shadow: 2px 2px 5px white;
 }
+
+/* heading for the schdule */
+
+.flex-text-right h3 {
+    padding-top: 50px;
+}
+
 
 /* game schedule in the form of a table */
 
