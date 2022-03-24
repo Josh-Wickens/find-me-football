@@ -448,8 +448,23 @@ th, td {
     margin-top: 50px;
 }
 
+/* find-team page */
 
+#list-of-teams-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+.flex-teams-list {
+    list-style-type: circle;
+    padding: 10px;
+    margin: 10px;
+}
+
+.flex-teams-list li {
+    list-style-type: circle;
+}
 
 
 
