@@ -503,6 +503,17 @@ th, td {
  width: 100%;
 }
 
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: 10px;
+    padding: 20px 5px;
+    align-items: center;
+    
+}
+
 
 
 
