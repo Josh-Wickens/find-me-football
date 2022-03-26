@@ -417,6 +417,10 @@ max-width: 735px;
     text-shadow: 2px 2px 5px white;
 }
 
+.game-info-flex p {
+    padding-top: 25px;
+}
+
 /* heading for the schdule */
 
 .flex-text-right h3 {
