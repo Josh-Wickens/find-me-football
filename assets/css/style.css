@@ -514,13 +514,17 @@ th, td {
     justify-content: center;
     color: white;
     margin: 10px;
-    padding: 20px 5px;
     align-items: center;
     font-size: 125%;
     text-align: center;
     
 }
 
+.form-flex {
+    margin: 5px;
+    padding: 5px;
+    font-size: 125%;
+}
 
 
 
