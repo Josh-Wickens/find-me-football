@@ -521,10 +521,20 @@ th, td {
 }
 
 .form-flex {
+    justify-content: flex-end;
     margin: 5px;
     padding: 5px;
     font-size: 125%;
+    
 }
+
+input[type=text], input[type=email] {
+    padding: 6px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    background-color: #BFBFBF;
+  }
 
 
 
