@@ -534,6 +534,11 @@ input[type=text], input[type=email] {
     box-sizing: border-box;
     font-size: 100%;
     background-color: #BFBFBF;
+    border: black solid 3px;
+  }
+
+  input[type=text]:focus, input[type=email]:focus {
+    background-color: white;
   }
 
 
