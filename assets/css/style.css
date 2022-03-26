@@ -485,8 +485,18 @@ th, td {
     top: 0;
     }
 
+    /* make the footer on the sign up page a fixed position footer as the page wont need to be scrolled */
+
+    #sign-up-footer {
+        position:fixed;
+     bottom:0;
+     left:0;
+     width: 100%;
+    }
+
 #form-container {
     display: flex;
+    justify-content: center;
     background-color: #303030;
     margin: 200px 100px 200px;
   height: auto;
@@ -496,12 +506,7 @@ th, td {
     
 }
 
-#sign-up-footer {
-    position:fixed;
- bottom:0;
- left:0;
- width: 100%;
-}
+
 
 .sign-up-form {
     display: flex;
@@ -511,6 +516,8 @@ th, td {
     margin: 10px;
     padding: 20px 5px;
     align-items: center;
+    font-size: 125%;
+    text-align: center;
     
 }
 
