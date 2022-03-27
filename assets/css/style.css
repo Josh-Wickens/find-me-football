@@ -681,8 +681,12 @@ border-radius: 0%;
 
 @media screen and (max-width: 510px) {
 
-
-   
+    .hide-span {
+        display: none;
+    }
+   .nav-bar li {
+       margin: 5px
+   }
     
     #what-is-fmf-image-top-left {
         position: absolute;
