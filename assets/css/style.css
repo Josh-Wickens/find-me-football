@@ -515,7 +515,7 @@ th, td {
     color: white;
     margin: 10px;
     align-items: center;
-    font-size: 125%;
+    font-size: 110%;
     text-align: center;
     
 }
@@ -524,7 +524,7 @@ th, td {
     justify-content: flex-end;
     margin: 5px;
     padding: 5px;
-    font-size: 125%;
+    font-size: 120%;
     
 }
 
@@ -540,6 +540,20 @@ input[type=text], input[type=email] {
   input[type=text]:focus, input[type=email]:focus {
     background-color: white;
   }
+
+  input[type=submit], input[type=reset] {
+      padding: 5px;
+      margin: 5px;
+      background-color: #BFBFBF;
+      font-size: 110%;
+      border: black solid 3px;
+  }
+
+ 
+
+  
+
+  
 
 
 
@@ -578,15 +592,4 @@ footer p {
     padding-top: 10px;
     font-size: 100%;
 }
-}
-
-.test {
-    height: 1000px;
-    background-color: darkblue;
-    font-size: larger;
-
-
-    contain: size;
-    width: 735px;
-    height: 1000px;
 }
