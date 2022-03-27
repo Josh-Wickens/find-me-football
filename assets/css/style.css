@@ -124,6 +124,14 @@ a:hover {
     text-decoration: underline solid black 2px; 
 }
 
+/* ham burger menu */ 
+
+nav label {
+    margin: 5px 50px 5px;
+    font-size: 250%;
+    color: white;
+    display: none;
+}
 
 
 
@@ -643,14 +651,23 @@ input[type=text], input[type=email] {
 
 @media screen and (max-width: 685px) {
 
+    .nav-bar {
+        font-size: 90%;
+        flex: 1 0 80% !important;
+    }
+
     * {
-        font-size: 95%;
+        font-size: 100%;
     }
 
     #brief-page-descriptions {
 height: auto;
 width: auto;
 padding: 10px;
+font-size: 95%;
+margin: 2px;
+padding: 2px;
+border-radius: 0%;
     }
 
     #what-is-fmf-image-top-left {
@@ -662,6 +679,11 @@ padding: 10px;
         position: absolute;
         left: 7%;
 }
+.reviews {
+    margin: 10px;
+    height: fit-content;
+    width: auto;
+}
 }
 
 /* for screen sizes 510px and down */
@@ -669,14 +691,16 @@ padding: 10px;
 @media screen and (max-width: 510px) {
 
     .nav-bar li {
-        margin: 5px;
+        margin: 1px;
+        padding: 1px;
         overflow-wrap: break-word; 
-        height: auto;
+        
     }
 
     .nav-bar a {
-        border: none;
+        border: black solid 1px;
         border-radius: 0%;
+        height: 50px;
     }
     #what-is-fmf-image-top-left {
         position: absolute;
@@ -687,8 +711,9 @@ padding: 10px;
         position: absolute;
         left: 5%;
     
-        
-    }   
+    }
+    
+    
 }
 
 
