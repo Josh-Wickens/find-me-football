@@ -43,7 +43,7 @@ h3 {
 
 .header-container {
     background-color: #3E4144;
-    height: 150px;
+    max-height: 150px;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -152,6 +152,7 @@ a:hover {
     justify-content: center;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.212);
+    text-align: center;
 
 }
 
@@ -553,21 +554,12 @@ input[type=text], input[type=email] {
       background-color: white;
   }
 
- 
-
-  
-
-  
-
 
 
 /* For screen sizes 1250px wide and down */
 
 @media screen and (max-width: 1250px) {
 
-    #slogan {
-        width: 75%;
-    }
     
     
     #flexbox-reviews {
@@ -578,7 +570,7 @@ input[type=text], input[type=email] {
 
     footer {
         max-height: 150px;
-        margin: 0;
+        margin: 0 25px;
     }
 
 }
