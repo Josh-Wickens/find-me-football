@@ -180,15 +180,17 @@ a:hover {
 
 .brief-headings {
     display: flex;
-    margin: 5px;
+    margin: 10px;
 }
 
 
 .read-me-buttons span {
-    margin: 10px 10px;
+    margin: 5px 5px;
+    padding: 2px;
     background-color: #BFBFBF;
     color: black;
     border: black solid 3px;
+    font-size: 75%;
 }
 
 .read-me-buttons span:hover {
