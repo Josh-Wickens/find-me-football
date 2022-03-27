@@ -549,6 +549,10 @@ input[type=text], input[type=email] {
       border: black solid 3px;
   }
 
+  input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input[type=reset]:hover {
+      background-color: white;
+  }
+
  
 
   
