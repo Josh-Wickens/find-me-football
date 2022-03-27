@@ -43,7 +43,7 @@ h3 {
 
 .header-container {
     background-color: #3E4144;
-    max-height: 150px;
+    min-height: 150px;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -338,6 +338,7 @@ footer p {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
+    margin: 0 20px;
 }
 
 .social-media-links {
@@ -570,7 +571,7 @@ input[type=text], input[type=email] {
 
     footer {
         max-height: 150px;
-        margin: 0 25px;
+        
     }
 
 }
