@@ -606,6 +606,15 @@ input[type=text], input[type=email] {
     }
 }
 
+#website-description {
+    margin: 20px;
+}
+
+#website-description h2 {
+   
+    margin: 50px 20px;
+}
+
 /* for screen sizes 880px and down */
 
 @media screen and (max-width: 880px) {
@@ -641,8 +650,6 @@ padding: 10px;
     }
 
     .nav-bar a {
-        border: none;
-        overflow-wrap: break-word;
         border: none;
         border-radius: 0%;
     }
