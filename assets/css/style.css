@@ -179,23 +179,21 @@ a:hover {
 }
 
 .brief-headings {
-    display: inline
+    display: flex;
 }
 
-.read-me-buttons {
-    display: inline;
-    font-size: 125%;
-    box-shadow: 3px 7px;
-    border: black solid 2px;
-    background-color: white;
 
+button[type=button] {
+    padding: 5px;
+    margin: 5px;
+    background-color: #BFBFBF;
+    border: black solid 3px;
 }
 
-.read-me-buttons a {
-    
-    font-size: 125%;
-    letter-spacing: 3px;
-
+button[type=button]:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 .read-me-buttons a:hover {
@@ -203,12 +201,14 @@ a:hover {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+ 
+#brief-page-descriptions a {
+    all: unset;
+} 
 
-.read-me-buttons button {
-    background-color: white;
-    color: black;
-    padding: 5px;
-}
+
+
+
 
 /* website description of what it is and what you can do */
 
