@@ -233,7 +233,7 @@ a:hover {
 #website-description h2 {
     text-align: center;
     font-size: 400%;
-    margin: 100px 40px;
+    margin: 10px 40px;
 
 }
 
@@ -604,7 +604,7 @@ input[type=text], input[type=email] {
     #brief-page-descriptions {
         left: 25%;
     }
-}
+
 
 #website-description {
     margin: 20px;
@@ -612,7 +612,19 @@ input[type=text], input[type=email] {
 
 #website-description h2 {
    
-    margin: 50px 20px;
+    margin: 350px 10px 20px 10px;
+}
+
+#what-is-fmf-image-top-left {
+    position: absolute;
+    left: 70%;
+}
+
+#what-is-fmf-image-top-right {
+    position: absolute;
+    left: 10%;
+
+}
 }
 
 /* for screen sizes 880px and down */
@@ -622,8 +634,11 @@ input[type=text], input[type=email] {
      #brief-page-descriptions {
         left: 5%;
 }
+#what-is-fmf-image-top-left {
+    position: absolute;
+    left: 60%;
 }
-
+}
 /* for screen sizes 685px and down */
 
 @media screen and (max-width: 685px) {
@@ -637,6 +652,16 @@ height: auto;
 width: auto;
 padding: 10px;
     }
+
+    #what-is-fmf-image-top-left {
+        position: absolute;
+        left: 55%;
+    }
+    
+    #what-is-fmf-image-top-right {
+        position: absolute;
+        left: 7%;
+}
 }
 
 /* for screen sizes 510px and down */
@@ -653,10 +678,18 @@ padding: 10px;
         border: none;
         border-radius: 0%;
     }
+    #what-is-fmf-image-top-left {
+        position: absolute;
+        left: 40%;
+    }
     
+    #what-is-fmf-image-top-right {
+        position: absolute;
+        left: 5%;
+    
+        
+    }   
 }
-
-
 
 
 
