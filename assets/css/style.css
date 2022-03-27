@@ -180,26 +180,21 @@ a:hover {
 
 .brief-headings {
     display: flex;
+    margin: 5px;
 }
 
 
-button[type=button] {
-    padding: 5px;
-    margin: 5px;
+.read-me-buttons span {
+    margin: 10px 10px;
     background-color: #BFBFBF;
+    color: black;
     border: black solid 3px;
 }
 
-button[type=button]:hover {
+.read-me-buttons span:hover {
     background-color: black;
     color: white;
     cursor: pointer;
-}
-
-.read-me-buttons a:hover {
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
 }
  
 #brief-page-descriptions a {
