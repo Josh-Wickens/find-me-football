@@ -124,15 +124,6 @@ a:hover {
     text-decoration: underline solid black 2px; 
 }
 
-/* ham burger menu */ 
-
-nav label {
-    margin: 5px 50px 5px;
-    font-size: 250%;
-    color: white;
-    display: none;
-}
-
 
 
 /* hero image for a large background of first page */
@@ -690,18 +681,9 @@ border-radius: 0%;
 
 @media screen and (max-width: 510px) {
 
-    .nav-bar li {
-        margin: 1px;
-        padding: 1px;
-        overflow-wrap: break-word; 
-        
-    }
 
-    .nav-bar a {
-        border: black solid 1px;
-        border-radius: 0%;
-        height: 50px;
-    }
+   
+    
     #what-is-fmf-image-top-left {
         position: absolute;
         left: 40%;
@@ -713,8 +695,4 @@ border-radius: 0%;
     
     }
     
-    
 }
-
-
-
