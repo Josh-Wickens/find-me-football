@@ -553,11 +553,34 @@ input[type=text], input[type=email] {
   }
 
 
+  /* Media Queries */
+
+  /* For screen sizes 1400px wide and down */
+
+  @media screen and (max-width: 1400px) {
+      #brief-page-descriptions {
+          left: 40%;
+      }
+      
+  }
+
 
 /* For screen sizes 1250px wide and down */
 
 @media screen and (max-width: 1250px) {
 
+    #brief-page-descriptions {
+        left: 45%;
+    }
+
+    .social-media-links > li {
+        margin: 10px 25px;
+    }
+    footer p {
+        padding-top: 10px;
+        font-size: 100%;
+    }
+    
     
     
     #flexbox-reviews {
@@ -573,17 +596,36 @@ input[type=text], input[type=email] {
 
 }
 
+/* for screen sizes 1170px and down */
 
+@media screen and (max-width: 1170px) {
 
+    #brief-page-descriptions {
+        left: 25%;
+    }
 
-
-@media screen and (max-width: 950px) {
-
-.social-media-links > li {
-    margin: 10px 25px;
 }
-footer p {
-    padding-top: 10px;
-    font-size: 100%;
+@media screen and (max-width: 880px) {
+
+     #brief-page-descriptions {
+        left: 5%;
 }
 }
+
+@media screen and (max-width: 685px) {
+
+    * {
+        font-size: 95%;
+    }
+
+    #brief-page-descriptions {
+height: auto;
+width: auto;
+padding: 10px;
+    }
+}
+
+
+
+
+
