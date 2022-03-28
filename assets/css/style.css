@@ -561,6 +561,17 @@ input[type=text], input[type=email] {
       #brief-page-descriptions {
           left: 40%;
       }
+
+      .flex-img-left {
+          display: none;
+      }
+
+      .flex-text-right {
+          font-size: 95%;
+          height: auto;
+          
+      }
+
       
   }
 
