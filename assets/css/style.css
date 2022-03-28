@@ -675,6 +675,9 @@ border-radius: 0%;
     height: fit-content;
     width: auto;
 }
+.social-media-links {
+    margin: 5px;
+}
 }
 
 /* for screen sizes 510px and down */
@@ -690,13 +693,16 @@ border-radius: 0%;
     
     #what-is-fmf-image-top-left {
         position: absolute;
-        left: 40%;
+        left: 45%;
     }
     
     #what-is-fmf-image-top-right {
         position: absolute;
-        left: 5%;
+        left: 2%;
     
+    }
+    #slogan {
+        top: 200px;
     }
     
 }
