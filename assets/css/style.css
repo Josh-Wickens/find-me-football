@@ -703,6 +703,11 @@ border-radius: 0%;
         position: absolute;
         left: 7%;
 }
+
+#description-heading-container h2 {
+    font-size: 200%;
+}
+
 .reviews {
     margin: 10px;
     height: fit-content;
@@ -738,6 +743,42 @@ border-radius: 0%;
         top: 200px;
     }
 
+    #website-description {
+
+        border: #303030 solid 4px;
+        border-radius: 0%;
+        padding: 10px;
+        margin: 20px 20px 20px 20px;
+        justify-content: center;
+    
+    }
+    #what-is-fmf-image-top-left img {
+
+        width: 180px;
+        height: 220px;
+        
+        -ms-transform: rotate(-1deg);
+        /* IE 9 */
+        -webkit-transform: rotate(-1deg);
+        /* Safari */
+        transform: rotate(-1deg);
+    }
+
+    #what-is-fmf-image-top-right img {
+        
+        width: 180px;
+        height: 220px;
+       
+        -ms-transform: rotate(1deg);
+        /* IE 9 */
+        -webkit-transform: rotate(1deg);
+        /* Safari */
+        transform: rotate(1deg);
+    }
+
+    footer {
+        font-size: 90%;
+    }
     
 }
 
