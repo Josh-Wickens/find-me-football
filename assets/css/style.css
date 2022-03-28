@@ -380,6 +380,10 @@ max-width: 735px;
 
 }
 
+.responsive-image {
+    display: none;
+}
+
 .find-images {
     contain: size;
     width: 735px;
@@ -570,6 +574,16 @@ input[type=text], input[type=email] {
           font-size: 95%;
           height: auto;
           
+      }
+
+      .responsive-image {
+          display: block;
+      }
+
+      .responsive-image img {
+          margin: 20px 0;
+          width: 100%;
+          height: auto;
       }
 
       
