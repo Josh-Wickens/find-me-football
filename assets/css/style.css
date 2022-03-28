@@ -517,8 +517,8 @@ th, td {
     justify-content: center;
     color: white;
     margin: 10px;
+    padding: 10px;
     align-items: center;
-    font-size: 110%;
     text-align: center;
     
 }
@@ -649,6 +649,10 @@ input[type=text], input[type=email] {
     left: 10%;
 
 }
+
+.form-flex {
+    font-size: 95%;
+}
 }
 
 /* for screen sizes 880px and down */
@@ -674,6 +678,10 @@ input[type=text], input[type=email] {
 
     * {
         font-size: 100%;
+    }
+
+    .logo {
+        font-size: 200%;
     }
 
     #brief-page-descriptions {
@@ -729,5 +737,16 @@ border-radius: 0%;
     #slogan {
         top: 200px;
     }
+
     
+}
+
+/* for screen sizes 1170px and down */
+
+@media screen and (max-height: 870px) {
+
+.form-flex {
+    font-size: 80%;
+}
+
 }
