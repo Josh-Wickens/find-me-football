@@ -701,6 +701,7 @@ font-size: 95%;
 margin: 2px;
 padding: 2px;
 border-radius: 0%;
+left: 25%;
     }
 
     #what-is-fmf-image-top-left {
@@ -752,6 +753,10 @@ border-radius: 0%;
         top: 200px;
     }
 
+    #brief-page-descriptions {
+        left: 10%;
+    }
+
     #website-description {
 
         border: #303030 solid 4px;
@@ -787,6 +792,10 @@ border-radius: 0%;
 
     footer {
         font-size: 90%;
+    }
+
+    .social-media-links i {
+        font-size: 200%;
     }
     
 }
