@@ -619,6 +619,11 @@ input[type=text], input[type=email] {
         
     }
 
+
+    #slogan {
+        padding: 0%;
+    }
+
 }
 
 /* for screen sizes 1170px and down */
@@ -658,6 +663,10 @@ input[type=text], input[type=email] {
 /* for screen sizes 880px and down */
 
 @media screen and (max-width: 880px) {
+
+    #hero-image {
+        width: auto;
+    }
 
      #brief-page-descriptions {
         left: 5%;
