@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display:wght@500&family=Source+Sans+Pro&display=swap');
 
+/* styling for basic structure */
 
 * {
     margin: 0;
     padding: 0;
     border: none;
-}
 
+}
 
 a {
     text-decoration: none;
+
 }
 
 body {
@@ -17,6 +19,7 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     width: 100%;
+
 }
 
 header {
@@ -31,6 +34,7 @@ h3 {
     font-family: playfair display, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+
 }
 
 .body-container {
@@ -39,7 +43,7 @@ h3 {
 
 }
 
-
+/* styling for the header which will be on every page */
 
 .header-container {
     background-color: #3E4144;
@@ -51,8 +55,6 @@ h3 {
     z-index: 1000;
 
 }
-
-
 
 /* logo */
 
@@ -69,11 +71,7 @@ h3 {
 
 }
 
-
-
-
 /* navigation bar */
-
 
 .nav-bar {
     display: flex;
@@ -95,9 +93,7 @@ h3 {
     margin: 10px;
     text-decoration: none;
 
-
 }
-
 
 .nav-bar a {
     background-color: #dddddd;
@@ -106,8 +102,6 @@ h3 {
     border: black solid 3px;
 
 }
-
-
 
 a:visited {
     color: inherit;
@@ -124,8 +118,6 @@ a:hover {
     text-decoration: underline solid black 2px; 
 }
 
-
-
 /* hero image for a large background of first page */
 
 #hero-image {
@@ -139,7 +131,6 @@ a:hover {
 }
 
 /* slogan for find me football. should be positioned under the flood light in the background. */
-
 
 #slogan {
     display: flex;
@@ -181,8 +172,8 @@ a:hover {
 .brief-headings {
     display: flex;
     margin: 10px;
-}
 
+}
 
 .read-me-buttons span {
     margin: 5px 5px;
@@ -191,21 +182,20 @@ a:hover {
     color: black;
     border: black solid 3px;
     font-size: 75%;
+
 }
 
 .read-me-buttons span:hover {
     background-color: black;
     color: white;
     cursor: pointer;
+
 }
  
 #brief-page-descriptions a {
     all: unset;
+
 } 
-
-
-
-
 
 /* website description of what it is and what you can do */
 
@@ -213,19 +203,16 @@ a:hover {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+
 }
 
-
-
 #website-description {
-
     border: #303030 solid 4px;
     border-width: 3px 3px 5px 5px;
     border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
     padding: 30px;
     margin: 20px 200px 20px 200px;
     justify-content: center;
-
 
 }
 
@@ -238,28 +225,25 @@ a:hover {
 
 #website-description span {
     font-family: permanent marker, playfair display, sans-serif;
+
 }
 
 /*images inside the website description*/
 
-
-
 #what-is-fmf-image-top-left img {
     float: left;
-
-
     width: 200px;
     height: 250px;
     padding: 10px 10px 20px 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
-
     -ms-transform: rotate(-8deg);
     /* IE 9 */
     -webkit-transform: rotate(-8deg);
     /* Safari */
     transform: rotate(-8deg);
+
 }
 
 #what-is-fmf-image-top-right img {
@@ -275,12 +259,14 @@ a:hover {
     -webkit-transform: rotate(7deg);
     /* Safari */
     transform: rotate(7deg);
+
 }
 
 #description-container {
     font-size: 150%;
     padding: 20px;
     text-align: center;
+
 }
 
 /* review section */
@@ -297,12 +283,14 @@ a:hover {
     text-align: center;
     margin: 20px;
     padding: 20px;
+
 }
 
 #flexbox-reviews {
     display: flex;
     justify-content: space-between;
     contain: content;
+
 }
 
 .reviews {
@@ -313,10 +301,12 @@ a:hover {
     border-width: 3px 3px 5px 5px;
     border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
     width: 500px;
+
 }
 
 .reviews span {
     font-style: italic;
+
 }
 
 /* footer and social media links*/
@@ -326,6 +316,7 @@ footer {
     width: 100%;
     background-color: #3E4144;
     z-index: 500;
+
 }
 
 footer p {
@@ -336,16 +327,19 @@ footer p {
     display: flex;
     flex-direction: column;
     margin: 0 20px;
+
 }
 
 .social-media-links {
     text-align: center;
     margin: 20px 0;
+
 }
 
 .social-media-links > li {
     display: inline;
     margin: 5px 50px;
+
 }
 
 .social-media-links i {
@@ -360,8 +354,6 @@ footer p {
     transform: scale(1.5);
     
 }
-
-
 
 /* Find Game page */
 
@@ -382,16 +374,17 @@ max-width: 735px;
 
 .responsive-image {
     display: none;
+
 }
 
 .find-images {
     contain: size;
     width: 735px;
     height: 1010px;
+
 }
 
 .flex-text-right {
-    
     color: white;
     padding: 50px;
     text-align: center;
@@ -399,16 +392,17 @@ max-width: 735px;
 
 }
 
-
 .flex-text-right p {
     padding-top: 50px;
+
 }
-    
 
 .game-info-flex {
     border: white solid 2px;
     padding: 5px;
+
 }
+
 #game-info-container {
     padding-top: 50px;
     display: flex;
@@ -416,12 +410,13 @@ max-width: 735px;
 }
 
 .game-info-flex h2 {
-
     text-shadow: 2px 2px 5px white;
+
 }
 
 .game-info-flex p {
     padding-top: 25px;
+
 }
 
 /* heading for the schdule */
@@ -430,16 +425,19 @@ max-width: 735px;
     padding-top: 50px;
 }
 
-
 /* game schedule in the form of a table */
 
 table {
     width: 100%;
     margin-top: 50px;
+
 }
+
 th {
     background-color: #3E4144;
+
 }
+
 table, th, td {
     border: white solid 4px;
     
@@ -447,12 +445,14 @@ table, th, td {
 
 th, td {
     padding: 10px 0;
+
 }
 
 /* link to sign up below schedule */
 
 .flex-text-right h4 {
     margin-top: 50px;
+
 }
 
 /* find-team page */
@@ -467,6 +467,7 @@ th, td {
     list-style-type: circle;
     padding: 10px;
     margin: 10px;
+
 }
 
 .flex-teams-list li {
@@ -476,25 +477,25 @@ th, td {
 /* sign-up page */
 
 #sign-up-container {
-    
     background: url("../images/grass-background.jpg");
     display:flex;
-  justify-content: center;
-
-  position: fixed;
+    justify-content: center;
+    position: fixed;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
+
     }
 
     /* make the footer on the sign up page a fixed position footer as the page wont need to be scrolled */
 
-    #sign-up-footer {
-        position:fixed;
-     bottom:0;
-     left:0;
-     width: 100%;
+#sign-up-footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+
     }
 
 #form-container {
@@ -502,14 +503,12 @@ th, td {
     justify-content: center;
     background-color: #303030;
     margin: 200px 100px 200px;
-  height: auto;
-  width: 750px;
-  border: #3E4144 solid 6px;
-  border-radius: 25%;
+    height: auto;
+    width: 750px;
+    border: #3E4144 solid 6px;
+    border-radius: 25%;
     
 }
-
-
 
 .sign-up-form {
     display: flex;
@@ -538,36 +537,41 @@ input[type=text], input[type=email] {
     font-size: 100%;
     background-color: #BFBFBF;
     border: black solid 3px;
-  }
 
-  input[type=text]:focus, input[type=email]:focus {
+}
+
+input[type=text]:focus, input[type=email]:focus {
     background-color: white;
+
   }
 
-  input[type=submit], input[type=reset] {
+input[type=submit], input[type=reset] {
       padding: 5px;
       margin: 5px;
       background-color: #BFBFBF;
       font-size: 110%;
       border: black solid 3px;
+
   }
 
-  input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input[type=reset]:hover {
+input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input[type=reset]:hover {
       background-color: white;
+
   }
 
-
-  /* Media Queries */
+  /* Media Queries for max-widths*/
 
   /* For screen sizes 1400px wide and down */
 
   @media screen and (max-width: 1400px) {
       #brief-page-descriptions {
           left: 40%;
+
       }
 
       .flex-img-left {
           display: none;
+
       }
 
       .flex-text-right {
@@ -586,9 +590,7 @@ input[type=text], input[type=email] {
           height: auto;
       }
 
-      
   }
-
 
 /* For screen sizes 1250px wide and down */
 
@@ -596,29 +598,30 @@ input[type=text], input[type=email] {
 
     #brief-page-descriptions {
         left: 45%;
+
     }
 
     .social-media-links > li {
         margin: 10px 25px;
+
     }
+
     footer p {
         padding-top: 10px;
         font-size: 100%;
+
     }
-    
-    
     
     #flexbox-reviews {
         flex-direction: column;
         align-items: center;
+
     }
-    
 
     footer {
         max-height: 150px;
         
     }
-
 
     #slogan {
         padding: 0%;
@@ -634,30 +637,31 @@ input[type=text], input[type=email] {
         left: 25%;
     }
 
-
-#website-description {
+    #website-description {
     margin: 20px;
-}
 
-#website-description h2 {
-   
+    }
+
+    #website-description h2 {
     margin: 350px 10px 20px 10px;
-}
+    
+    }
 
-#what-is-fmf-image-top-left {
+    #what-is-fmf-image-top-left {
     position: absolute;
     left: 70%;
-}
 
-#what-is-fmf-image-top-right {
+    }
+
+    #what-is-fmf-image-top-right {
     position: absolute;
     left: 10%;
 
-}
+    }
 
-.form-flex {
+    .form-flex {
     font-size: 95%;
-}
+    }
 }
 
 /* for screen sizes 880px and down */
@@ -666,16 +670,20 @@ input[type=text], input[type=email] {
 
     #hero-image {
         width: auto;
+
     }
 
      #brief-page-descriptions {
         left: 5%;
-}
-#what-is-fmf-image-top-left {
+    }
+
+    #what-is-fmf-image-top-left {
     position: absolute;
     left: 60%;
+
+    }
 }
-}
+
 /* for screen sizes 685px and down */
 
 @media screen and (max-width: 685px) {
@@ -683,6 +691,7 @@ input[type=text], input[type=email] {
     .nav-bar {
         font-size: 90%;
         flex: 1 0 80% !important;
+
     }
 
     * {
@@ -691,41 +700,48 @@ input[type=text], input[type=email] {
 
     .logo {
         font-size: 200%;
+
     }
 
     #brief-page-descriptions {
-height: auto;
-width: auto;
-padding: 10px;
-font-size: 95%;
-margin: 2px;
-padding: 2px;
-border-radius: 0%;
-left: 25%;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    font-size: 95%;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 0%;
+    left: 25%;
+    
     }
 
     #what-is-fmf-image-top-left {
         position: absolute;
         left: 55%;
+    
     }
     
     #what-is-fmf-image-top-right {
         position: absolute;
         left: 7%;
-}
+    }
 
-#description-heading-container h2 {
+    #description-heading-container h2 {
     font-size: 200%;
-}
 
-.reviews {
+    }
+
+    .reviews {
     margin: 10px;
     height: fit-content;
     width: auto;
-}
-.social-media-links {
+
+    }
+
+    .social-media-links {
     margin: 5px;
-}
+
+    }
 }
 
 /* for screen sizes 510px and down */
@@ -733,100 +749,115 @@ left: 25%;
 @media screen and (max-width: 510px) {
 
     .hide-span {
-        display: none;
+    display: none;
+    
     }
-   .nav-bar li {
-       margin: 5px
-   }
+   
+    .nav-bar li {
+    margin: 5px
+   
+    }
     
     #what-is-fmf-image-top-left {
-        position: absolute;
-        left: 45%;
+    position: absolute;
+    left: 45%;
+    
     }
     
     #what-is-fmf-image-top-right {
-        position: absolute;
-        left: 2%;
+    position: absolute;
+    left: 2%;
     
     }
+    
     #slogan {
-        top: 200px;
+    top: 200px;
+    
     }
 
     #brief-page-descriptions {
-        left: 10%;
+    left: 10%;
+    
     }
 
     #website-description {
 
-        border: #303030 solid 4px;
-        border-radius: 0%;
-        padding: 10px;
-        margin: 20px 20px 20px 20px;
-        justify-content: center;
+    border: #303030 solid 4px;
+    border-radius: 0%;
+    padding: 10px;
+    margin: 20px 20px 20px 20px;
+    justify-content: center;
     
     }
-    #what-is-fmf-image-top-left img {
 
-        width: 180px;
-        height: 220px;
-        
-        -ms-transform: rotate(-1deg);
-        /* IE 9 */
-        -webkit-transform: rotate(-1deg);
-        /* Safari */
-        transform: rotate(-1deg);
+    #what-is-fmf-image-top-left img {
+    width: 180px;
+    height: 220px;        
+    -ms-transform: rotate(-1deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-1deg);
+    /* Safari */
+    transform: rotate(-1deg);
+    
     }
 
-    #what-is-fmf-image-top-right img {
-        
-        width: 180px;
-        height: 220px;
-       
-        -ms-transform: rotate(1deg);
-        /* IE 9 */
-        -webkit-transform: rotate(1deg);
-        /* Safari */
-        transform: rotate(1deg);
+    #what-is-fmf-image-top-right img {    
+    width: 180px;
+    height: 220px;   
+    -ms-transform: rotate(1deg);
+    /* IE 9 */
+    -webkit-transform: rotate(1deg);
+    /* Safari */
+    transform: rotate(1deg);
+    
     }
 
     footer {
-        font-size: 90%;
+    font-size: 90%;
+    
     }
 
     .social-media-links i {
-        font-size: 200%;
+    font-size: 200%;
+    
     }
     
 }
 
-/* for screen sizes 1170px and down */
+/* Media Queries for max-heights */
+
+/* for screen sizes 870px and down */
 
 @media screen and (max-height: 870px) {
 
-.form-flex {
+    .form-flex {
     font-size: 80%;
-}
+    
+    }
 
-#form-container {
+    #form-container {
     margin: 160px 50px 160px;
-}
+    
+    }
 
-input[type=text], input[type=email] {
+    input[type=text], input[type=email] {
     padding: 3px 5px;
     margin: 2px 0;
 
-}
+    }
 
-input[type=submit], input[type=reset] {
+    input[type=submit], input[type=reset] {
     padding: 3px;
     margin: 3px;
+    }
 }
-}
+
+/* for screen sizes 660px and down */
 
 @media screen and (max-height: 660px) {
     .form-flex {
-        margin: 2px;
-        padding: 2px;
+    margin: 2px;
+    padding: 2px;
+    
     }
 }
