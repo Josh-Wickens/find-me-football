@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,31 +13,41 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Find Me Football</title>
+
 </head>
 
 <body>
+
     <div class="body-container">
+
         <header class="header-container">
 
             <nav>
+
+                <!-- nav bar containing links to pages of the website. this will be the same on each page -->
+
                 <ul class="nav-bar">
+
                     <li class="nav-items">
                         <a href="index.html">Home</a>
                     </li>
+
                     <li class="nav-items">
                         <a href="find-game.html"><span class="hide-span">Search</span> Game</a>
                     </li>
+
                     <li class="nav-items">
                         <a href="find-game.html"><span class="hide-span">Search</span> Team</a>
                     </li>
+
                     <li class="nav-items">
                         <a href="sign-up.html" class="active">Sign <span class="hide-span">Up</span></a>
                     </li>
+
                 </ul>
 
                 <a href="index.html">
                     <h2 class="logo">Find Me Football</h2>
-
                 </a>
 
             </nav>
@@ -44,26 +55,37 @@
         </header>
 
         <section>
+
+            <!-- form to sign up for find me football. can sign up for find a game, team or register your interest for both -->
+
             <div id="sign-up-container">
+
                 <div id="form-container">
+
                     <form method="POST" action="https://formdump.codeinstitute.net/" class="sign-up-form">
 
                         <div class="form-flex">
                             <h1>Register for Games, Teams and Events</h1>
                         </div>
+
                         <div class="form-flex"><label for="fname">First Name:</label>
-                            <input id="fname" name="first_name" type="text" required></div>
+                            <input id="fname" name="first_name" type="text" required>
+                        </div>
 
                         <div class="form-flex"><label for="lname">Last Name:</label>
-                            <input id="lname" name="last_name" type="text" required></div>
+                            <input id="lname" name="last_name" type="text" required>
+                        </div>
 
                         <div class="form-flex"><label for="email">Email Address:</label>
-                            <input id="email" name="email_address" type="email" required></div>
+                            <input id="email" name="email_address" type="email" required>
+                        </div>
 
                         <div class="form-flex">
                             <h3>Register for Games, Teams or Both</h3>
                         </div>
+
                         <div class="radio-buttons">
+
                             <div class="form-flex"><input id="find-game" type="radio" name="register-interest"
                                     value="game-register">
                                 <label for="find-game">Game</label>
@@ -73,28 +95,37 @@
 
                                 <input id="find-both" type="radio" name="register-interest" value="both-register"
                                     checked>
-                                <label for="find-both">Both</label></div>
+                                <label for="find-both">Both</label>
+                            </div>
+
                         </div>
+
                         <div class="form-flex">
                             <input type="submit" value="Submit"> <input type="reset">
                         </div>
 
                     </form>
+
                 </div>
+
             </div>
+
         </section>
 
-
-
-
+        <!-- footer display changed to fixed so that footer will stay at the bottom of the page. -->
 
         <div id="sign-up-footer">
+
             <footer>
+
+                 <!-- footer of website which contains the social media links. This will be used on each page. -->
+
                 <p>Check out our social media pages. Our community will post if they need players for games or why not
                     host your own game and see if anyone can play or check out our Youtube and see it all for yourself!
                     Just click the links below.</p>
 
                 <ul class="social-media-links">
+
                     <li>
                         <a href="https://facebook.com" target="_blank" rel="noopener"
                             aria-label="Visit our Facebook page (opens in a new tab)"><i
@@ -109,15 +140,19 @@
                     <li><a href="https://Youtube.com" target="_blank" rel="noopener"
                             aria-label="Visit our Youtube page (opens in a new tab)"><i
                                 class="fa-brands fa-youtube-square"></i></a></li>
+
                 </ul>
+
             </footer>
+
         </div>
 
-
     </div>
+
     <!--font awesome script-->
 
     <script src="https://kit.fontawesome.com/9cbece0763.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
