@@ -2,7 +2,7 @@ ___
 # **Find Me Football**
 
 
-'Find Me Football' is a website for anyone who want's to play football in the Manchester area. There are two parts to the website; pepople who are looking to play a game of football and people who are looking to join a local football team in Manchester. There are lots of times where people are new to an area, or haven't played for a long time and don't know where to start to get back playing football, or don't know enough people to organise their own game, can't commit  and would like to be able to play a game of football or join a football team, but don't even know where to start. Find me football provides users with a simple way to register interest in wanting to play football and having it organised for them. 
+'Find Me Football' is a website for anyone who wants to play football in the Manchester area. There are two aspects of the website; one for people who are looking to play a game of football, and one for people who are looking to join a local football team. It happens very often that people are new to an area, or haven't played football for a long time, and don't know where to start to get back playing. Perhaps they don't know enough people to organise their own game, can't commit to a football league and so they just want to be able to join a game, or team, at a time and date that suits them. Find me football provides users with a simple way to register interest in joining a football game, or team, with everything being coordinated for them. 
 
 ![image of repsponsive design with find-me-football website on multiple devices](assets/images/responsive.png)
 ___
@@ -30,7 +30,10 @@ The slogan will sit right below the header. It will provide the user exactly wha
 - brief page descriptions ask the user what are you looking for on this website. If theu can answer yes to any of them, then there is a clickable link which will take them to what they are looking for (if thats info about looking for a football game or local team or to sign up).
 ___
 ___
-
+### **What Is Find Me Football** ###
+The section will explain to the user in more detail to what find me football is. It will contain a description as to what each page is about. 
+![screenshot of what find me football is](assets/images/what-is-fmf.png)
+- 2 polaroid styled images. This will give the photos a homely feel as this is the type of photo which is taken by families.
 
 
 
