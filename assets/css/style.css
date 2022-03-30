@@ -864,6 +864,10 @@ input[type=reset]:hover {
     #review-container h2 {
         font-size: 250%;
     }
+
+    .flex-text-right {
+        font-size: 80%;
+    }
 }
 
 /* Media Queries for max-heights */
