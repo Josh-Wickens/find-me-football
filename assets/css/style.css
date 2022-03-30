@@ -847,6 +847,14 @@ input[type=reset]:hover {
 
 }
 
+@media screen and (max-width: 400px) {
+
+    #brief-page-descriptions {
+        left: 4%;
+
+    }
+}
+
 /* Media Queries for max-heights */
 
 /* for screen sizes 870px and down */
