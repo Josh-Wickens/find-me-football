@@ -15,7 +15,7 @@ a {
 }
 
 body {
-    font-family: source sans pro, sans-serif;
+    font-family: 'source sans pro', sans-serif;
     font-weight: 400;
     overflow-x: hidden;
     width: 100%;
@@ -31,7 +31,7 @@ header {
 h1,
 h2,
 h3 {
-    font-family: playfair display, sans-serif;
+    font-family: 'playfair display', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
 
@@ -59,7 +59,7 @@ h3 {
 /* logo */
 
 .logo {
-    font-family: permanent marker, playfair display, sans-serif;
+    font-family: 'permanent marker', playfair display, sans-serif;
     text-align: center;
     font-size: 300%;
     margin-top: 10px;
@@ -115,7 +115,7 @@ a:hover {
 }
 
 .active {
-    text-decoration: underline solid black 2px; 
+    text-decoration: underline solid black 2px;
 }
 
 /* hero image for a large background of first page */
@@ -191,11 +191,11 @@ a:hover {
     cursor: pointer;
 
 }
- 
+
 #brief-page-descriptions a {
     all: unset;
 
-} 
+}
 
 /* website description of what it is and what you can do */
 
@@ -224,7 +224,7 @@ a:hover {
 }
 
 #website-description span {
-    font-family: permanent marker, playfair display, sans-serif;
+    font-family: 'permanent marker', playfair display, sans-serif;
 
 }
 
@@ -274,7 +274,7 @@ a:hover {
 #review-container {
     background-color: black;
     width: 100%;
-    
+
 }
 
 #review-container h2 {
@@ -336,7 +336,7 @@ footer p {
 
 }
 
-.social-media-links > li {
+.social-media-links>li {
     display: inline;
     margin: 5px 50px;
 
@@ -345,14 +345,14 @@ footer p {
 .social-media-links i {
     font-size: 300%;
     color: white;
-    
+
 }
 
 .social-media-links i:hover {
     background-color: white;
     color: black;
     transform: scale(1.5);
-    
+
 }
 
 /* Find Game page */
@@ -368,7 +368,7 @@ footer p {
 }
 
 .flex-img-left {
-max-width: 735px;
+    max-width: 735px;
 
 }
 
@@ -438,12 +438,15 @@ th {
 
 }
 
-table, th, td {
+table,
+th,
+td {
     border: white solid 4px;
-    
+
 }
 
-th, td {
+th,
+td {
     padding: 10px 0;
 
 }
@@ -460,7 +463,7 @@ th, td {
 #list-of-teams-container {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .flex-teams-list {
@@ -478,7 +481,7 @@ th, td {
 
 #sign-up-container {
     background: url("../images/grass-background.jpg");
-    display:flex;
+    display: flex;
     justify-content: center;
     position: fixed;
     width: 100%;
@@ -486,17 +489,17 @@ th, td {
     left: 0;
     top: 0;
 
-    }
+}
 
-    /* make the footer on the sign up page a fixed position footer as the page wont need to be scrolled */
+/* make the footer on the sign up page a fixed position footer as the page wont need to be scrolled */
 
 #sign-up-footer {
-    position:fixed;
-    bottom:0;
-    left:0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
 
-    }
+}
 
 #form-container {
     display: flex;
@@ -507,7 +510,7 @@ th, td {
     width: 750px;
     border: #3E4144 solid 6px;
     border-radius: 25%;
-    
+
 }
 
 .sign-up-form {
@@ -519,7 +522,7 @@ th, td {
     padding: 10px;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .form-flex {
@@ -527,10 +530,11 @@ th, td {
     margin: 5px;
     padding: 5px;
     font-size: 120%;
-    
+
 }
 
-input[type=text], input[type=email] {
+input[type=text],
+input[type=email] {
     padding: 6px 10px;
     margin: 4px 0;
     box-sizing: border-box;
@@ -540,57 +544,62 @@ input[type=text], input[type=email] {
 
 }
 
-input[type=text]:focus, input[type=email]:focus {
+input[type=text]:focus,
+input[type=email]:focus {
     background-color: white;
 
-  }
+}
 
-input[type=submit], input[type=reset] {
-      padding: 5px;
-      margin: 5px;
-      background-color: #BFBFBF;
-      font-size: 110%;
-      border: black solid 3px;
+input[type=submit],
+input[type=reset] {
+    padding: 5px;
+    margin: 5px;
+    background-color: #BFBFBF;
+    font-size: 110%;
+    border: black solid 3px;
 
-  }
+}
 
-input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input[type=reset]:hover {
-      background-color: white;
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: white;
 
-  }
+}
 
-  /* Media Queries for max-widths*/
+/* Media Queries for max-widths*/
 
-  /* For screen sizes 1400px wide and down */
+/* For screen sizes 1400px wide and down */
 
-  @media screen and (max-width: 1400px) {
-      #brief-page-descriptions {
-          left: 40%;
+@media screen and (max-width: 1400px) {
+    #brief-page-descriptions {
+        left: 40%;
 
-      }
+    }
 
-      .flex-img-left {
-          display: none;
+    .flex-img-left {
+        display: none;
 
-      }
+    }
 
-      .flex-text-right {
-          font-size: 95%;
-          height: auto;
-          
-      }
+    .flex-text-right {
+        font-size: 95%;
+        height: auto;
 
-      .responsive-image {
-          display: block;
-      }
+    }
 
-      .responsive-image img {
-          margin: 20px 0;
-          width: 100%;
-          height: auto;
-      }
+    .responsive-image {
+        display: block;
+    }
 
-  }
+    .responsive-image img {
+        margin: 20px 0;
+        width: 100%;
+        height: auto;
+    }
+
+}
 
 /* For screen sizes 1250px wide and down */
 
@@ -601,7 +610,7 @@ input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input
 
     }
 
-    .social-media-links > li {
+    .social-media-links>li {
         margin: 10px 25px;
 
     }
@@ -611,7 +620,7 @@ input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input
         font-size: 100%;
 
     }
-    
+
     #flexbox-reviews {
         flex-direction: column;
         align-items: center;
@@ -620,7 +629,7 @@ input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input
 
     footer {
         max-height: 150px;
-        
+
     }
 
     #slogan {
@@ -638,29 +647,29 @@ input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input
     }
 
     #website-description {
-    margin: 20px;
+        margin: 20px;
 
     }
 
     #website-description h2 {
-    margin: 350px 10px 20px 10px;
-    
+        margin: 350px 10px 20px 10px;
+
     }
 
     #what-is-fmf-image-top-left {
-    position: absolute;
-    left: 70%;
+        position: absolute;
+        left: 70%;
 
     }
 
     #what-is-fmf-image-top-right {
-    position: absolute;
-    left: 10%;
+        position: absolute;
+        left: 10%;
 
     }
 
     .form-flex {
-    font-size: 95%;
+        font-size: 95%;
     }
 }
 
@@ -673,13 +682,13 @@ input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input
 
     }
 
-     #brief-page-descriptions {
+    #brief-page-descriptions {
         left: 5%;
     }
 
     #what-is-fmf-image-top-left {
-    position: absolute;
-    left: 60%;
+        position: absolute;
+        left: 60%;
 
     }
 }
@@ -690,7 +699,6 @@ input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input
 
     .nav-bar {
         font-size: 90%;
-        flex: 1 0 80% !important;
 
     }
 
@@ -704,42 +712,42 @@ input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input
     }
 
     #brief-page-descriptions {
-    height: auto;
-    width: auto;
-    padding: 10px;
-    font-size: 95%;
-    margin: 2px;
-    padding: 2px;
-    border-radius: 0%;
-    left: 25%;
-    
+        height: auto;
+        width: auto;
+        padding: 10px;
+        font-size: 95%;
+        margin: 2px;
+        padding: 2px;
+        border-radius: 0%;
+        left: 25%;
+
     }
 
     #what-is-fmf-image-top-left {
         position: absolute;
         left: 55%;
-    
+
     }
-    
+
     #what-is-fmf-image-top-right {
         position: absolute;
         left: 7%;
     }
 
     #description-heading-container h2 {
-    font-size: 200%;
+        font-size: 200%;
 
     }
 
     .reviews {
-    margin: 10px;
-    height: fit-content;
-    width: auto;
+        margin: 10px;
+        height: fit-content;
+        width: auto;
 
     }
 
     .social-media-links {
-    margin: 5px;
+        margin: 5px;
 
     }
 }
@@ -749,79 +757,79 @@ input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input
 @media screen and (max-width: 510px) {
 
     .hide-span {
-    display: none;
-    
+        display: none;
+
     }
-   
+
     .nav-bar li {
-    margin: 5px
-   
+        margin: 5px
     }
-    
+
     #what-is-fmf-image-top-left {
-    position: absolute;
-    left: 45%;
-    
+        position: absolute;
+        left: 45%;
+        display: none;
+
     }
-    
+
     #what-is-fmf-image-top-right {
-    position: absolute;
-    left: 2%;
-    
+        position: absolute;
+        left: 2%;
+
     }
-    
+
     #slogan {
-    top: 200px;
-    
+        top: 200px;
+
     }
 
     #brief-page-descriptions {
-    left: 10%;
-    
+        left: 10%;
+
     }
 
     #website-description {
 
-    border: #303030 solid 4px;
-    border-radius: 0%;
-    padding: 10px;
-    margin: 20px 20px 20px 20px;
-    justify-content: center;
-    
+        border: #303030 solid 4px;
+        border-radius: 0%;
+        padding: 10px;
+        margin: 20px 20px 20px 20px;
+        justify-content: center;
+
     }
 
     #what-is-fmf-image-top-left img {
-    width: 180px;
-    height: 220px;        
-    -ms-transform: rotate(-1deg);
-    /* IE 9 */
-    -webkit-transform: rotate(-1deg);
-    /* Safari */
-    transform: rotate(-1deg);
-    
+        width: 180px;
+        height: 220px;
+        -ms-transform: rotate(-1deg);
+        /* IE 9 */
+        -webkit-transform: rotate(-1deg);
+        /* Safari */
+        transform: rotate(-1deg);
+
     }
 
-    #what-is-fmf-image-top-right img {    
-    width: 180px;
-    height: 220px;   
-    -ms-transform: rotate(1deg);
-    /* IE 9 */
-    -webkit-transform: rotate(1deg);
-    /* Safari */
-    transform: rotate(1deg);
-    
+    #what-is-fmf-image-top-right img {
+        width: 180px;
+        height: 220px;
+        -ms-transform: rotate(1deg);
+        /* IE 9 */
+        -webkit-transform: rotate(1deg);
+        /* Safari */
+        transform: rotate(1deg);
+
     }
 
     footer {
-    font-size: 90%;
-    
+        font-size: 90%;
+
     }
 
     .social-media-links i {
-    font-size: 200%;
-    
+        font-size: 200%;
+
     }
-    
+
 }
 
 /* Media Queries for max-heights */
@@ -831,24 +839,26 @@ input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input
 @media screen and (max-height: 870px) {
 
     .form-flex {
-    font-size: 80%;
-    
+        font-size: 80%;
+
     }
 
     #form-container {
-    margin: 160px 50px 160px;
-    
-    }
-
-    input[type=text], input[type=email] {
-    padding: 3px 5px;
-    margin: 2px 0;
+        margin: 160px 50px 160px;
 
     }
 
-    input[type=submit], input[type=reset] {
-    padding: 3px;
-    margin: 3px;
+    input[type=text],
+    input[type=email] {
+        padding: 3px 5px;
+        margin: 2px 0;
+
+    }
+
+    input[type=submit],
+    input[type=reset] {
+        padding: 3px;
+        margin: 3px;
     }
 }
 
@@ -856,8 +866,8 @@ input[type=text]:hover, input[type=email]:hover, input[type=submit]:hover, input
 
 @media screen and (max-height: 660px) {
     .form-flex {
-    margin: 2px;
-    padding: 2px;
-    
+        margin: 2px;
+        padding: 2px;
+
     }
 }
