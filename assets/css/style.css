@@ -175,6 +175,10 @@ a:hover {
 
 }
 
+.brief-headings p {
+    font-weight: bold;
+}
+
 .read-me-buttons span {
     margin: 5px 5px;
     padding: 2px;
@@ -763,6 +767,11 @@ input[type=reset]:hover {
 
     .nav-bar li {
         margin: 5px
+    }
+
+    #website-description h2 {
+        margin: 20px 10px 20px 10px;
+
     }
 
     #what-is-fmf-image-top-left {
