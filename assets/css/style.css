@@ -794,6 +794,11 @@ input[type=reset]:hover {
 
     }
 
+    #hero-image {
+        height: 845px;
+
+    }
+
     #brief-page-descriptions {
         left: 10%;
 
@@ -852,6 +857,10 @@ input[type=reset]:hover {
     #brief-page-descriptions {
         left: 4%;
 
+    }
+
+    #review-container h2 {
+        font-size: 250%;
     }
 }
 
