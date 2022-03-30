@@ -58,6 +58,7 @@ Footer styled the same as the header. Contains links for the user to connect wit
 - footer at the bottom of the page contains links direct to find-me-football on their social media pages.
 - social media links become larger when hovered over.
 - features on all the pages of the website for easy access and availability.
+- links open in a new page for a user friendly experience.
 ___
 ___
 ### **Find Game** ###
@@ -68,9 +69,48 @@ Find game page which provides all the details including schedule for organised g
 - Provides use with more information on how to get involved with the football games.
 - Provides user with a schedule for the arranged games. 
 - Presented in a clear table so it is easy to find the date, times and location of the games.
+- This will be updated with more places, dates and times the more popular it gets. 
 
 ___
 ___
+### **Find Team** ###
+Find team page which provides the user with an explanation as to how we find the user a local team to play for. 
+
+![screenshot of find team page on website](assets/images/find-team-ss.png)
+
+- provides the user with an explanation as to how we find teams for them.
+- shows the user local teams we have worked with in the past.
+- This will be updated with more and more teams when find me football works with more teams. This will show users that we are popular with many teams around manchester.
+
+___
+___
+
+### **Sign-Up Page** ###
+
+Sign up page for users to sign up to finding a game or team or both. Once registered Find Me Football will be in contact to either provide the user with special games coming up or local teams that are looking for players. User must register with first name, last name & Email.
+
+![screenshot of sign up form](assets/images/form-ss.png)
+
+- gives the user the opportunity to provide find me football with their contact details so that they can get more involved with the football provided.
+- radio button set to both in case the user forgets to choose.
+
+___
+___
+
+### **Images** ###
+
+Images on pages of the website
+
+![picture used on website 2 boys playing in the park](assets/images/park-football.jpg)
+- all images used on the website are football related. This should give the user a clear understanding of what football the website is about.
+
+___
+___
+
+
+
+
+
 
 
 
