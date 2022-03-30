@@ -1,3 +1,38 @@
+<h2 class="logo">Find Me Football</h2>
+
+
+
+
+'Find Me Football' is a website for anyone who want's to play football in the Manchester area. There are two parts to the website; pepople who are looking to play a game of football and people who are looking to join a local football team in Manchester. There are lots of times where people are new to an area, or haven't played for a long time and don't know where to start to get back playing football, or don't know enough people to organise their own game, can't commit  and would like to be able to play a game of football or join a football team, but don't even know where to start. Find me football provides users with a simple way to register interest in wanting to play football and having it organised for them. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Josh-Wickens,

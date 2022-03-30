@@ -852,6 +852,8 @@ input[type=reset]:hover {
 
 }
 
+/* for screen sizes 400px and down */
+
 @media screen and (max-width: 400px) {
 
     #brief-page-descriptions {
