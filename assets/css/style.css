@@ -177,6 +177,7 @@ a:hover {
 
 .brief-headings p {
     font-weight: bold;
+
 }
 
 .read-me-buttons span {
@@ -828,6 +829,10 @@ input[type=reset]:hover {
         /* Safari */
         transform: rotate(1deg);
 
+    }
+
+    .flex-text-right {
+        padding: 20px;
     }
 
     footer {
