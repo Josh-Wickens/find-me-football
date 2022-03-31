@@ -139,7 +139,23 @@ I created media queries so that no matter the width size, with that being a phon
 - the portrait image is replaced with a horizontal image.
 - lighthouse testing shows that the homepage is compatible.
 
+lighthouse testing for 'find game page'
+
 ![screenshot of lighthouse testing for find-game page](assets/images/lighthouse-2.png)
+
+- originally the testing came out poor for performance for the 'find team page'
+![screenshot of poor performance for find-game page](assets/images/lighthouse-3-bad.png)
+
+- after a changed the image to a png image the testing came out good.
+![screenshot of good performance for find-game page](assets/images/lighthouse-3-good.png)
+
+### **sign-up page** ###
+- font and elements will get smaller with the screen size getting smaller.
+- the form will be responsive to max-wiidth and also max-height as the header and footer on this page are both fixed.
+- lighthouse testing shows that the homepage is compatible.
+
+
+
 
 
 
