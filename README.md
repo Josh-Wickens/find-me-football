@@ -224,7 +224,7 @@ I used fontawesome for my social media icons.
 ### **Help and Guides** ###
 I watched videos and searched the internet for help with my website. 
 
-Flexboxs
+Flexbox
 - [Web Dev Simplified - Youtube channel](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=216s)
 
 CSS & Html 
