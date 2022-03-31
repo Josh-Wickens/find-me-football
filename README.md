@@ -6,6 +6,11 @@ ___
 
 ![image of repsponsive design with find-me-football website on multiple devices](assets/images/responsive.png)
 ___
+___
+## **Motivation** ##
+I have been in the situation myself where I have been new to an area, unfit and not enough friends to be able to go out and play a game of football. I have never played for a football team because I have never been brave enough to go to trials for a team because I didn't know if i would be good enough, fit enough or even in a position to commit to a team. Find Me Football would have been that website that provided me a way of doing any of them with the help of everyone else being in the same boat.
+___
+___
 
 ## **Features** ##
 ___
@@ -116,8 +121,11 @@ ___
 ___
 ___
 ## Testing ##
-
 ___
+
+### **Home Page** ###
+- 
+
 
 
 
