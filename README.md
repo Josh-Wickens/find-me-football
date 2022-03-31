@@ -205,6 +205,7 @@ ___
 Free images were taken from
 - [freeimages.com](https://www.freeimages.com/)
 - [pexels.com](https://www.pexels.com/)
+- [unsplash.com](https://unsplash.com/)
 
 ### **Code** ###
 The standard border looked a bit bland. I found code which would provide the border with a comic book effect which made the content look more appealing.
