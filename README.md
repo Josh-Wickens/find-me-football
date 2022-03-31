@@ -8,7 +8,7 @@ ___
 ___
 ___
 ## **Motivation** ##
-I have been in the situation myself where I have been new to an area, unfit and not enough friends to be able to go out and play a game of football. I have never played for a football team because I have never been brave enough to go to trials for a team because I didn't know if i would be good enough, fit enough or even in a position to commit to a team. Find Me Football would have been that website that provided me a way of doing any of them with the help of everyone else being in the same boat.
+I have been in the situation myself where I have been new to an area, unfit and not enough friends to be able to go out and play a game of football. I have never played for a football team because I have never been brave enough to go to trials for a team because I didn't know if I would be good enough, fit enough or even in a position to commit to a team. Find Me Football would have been that website that provided me a way of doing any of them with the help of everyone else being in the same boat.
 ___
 ___
 
@@ -29,16 +29,16 @@ The fixed navgation bar will be fixed to the top of the screen so that the user 
 ___
 ___
 ### **Slogan & Brief Link Descriptions** ###
-The slogan will sit right below the header. It will provide the user exactly what 'Find Me Football' is. Then the brief questions provides the user with what each page of the site will contain and links to that page which are clickable. It ask's them what are they searching this website for?
+The slogan will sit right below the header. It will provide the user exactly what 'Find Me Football' is. Then the brief questions provides the user with what each page of the site will contain and links to that page which are clickable. It asks them what are they searching this website for?
 ![screenshot of slogan under header and secondry page links](assets/images/slogan-and-links.png)
 - Slogan contains a background which has a a slight transparancy to it so that the text can be seen better with the background image still viewable.
-- brief page descriptions ask the user what are you looking for on this website. If theu can answer yes to any of them, then there is a clickable link which will take them to what they are looking for (if thats info about looking for a football game or local team or to sign up). 
+- Brief page descriptions ask the user what are you looking for on this website. If theu can answer yes to any of them, then there is a clickable link which will take them to what they are looking for (if thats info about looking for a football game or local team or to sign up). 
 - Provides the user with an early explanation so that they don't have to explore the entire website to find what they are looking for.
 ___
 ___
 ### **What Is Find Me Football** ###
 The section will explain to the user in more detail to what find me football is. It will contain a description as to what each page is about. 
-- description of the different pages in more details. This will help the user understand what the different pages contain.
+- Description of the different pages in more details. This will help the user understand what the different pages contain.
 ___
 ___
 
@@ -48,8 +48,8 @@ Reviews from people that have used Find Me Football.
 
 ![screenshot of review on find me football site](assets/images/reviews.png)
 
-- reviews will provide the user with what other users have experienced. 
-- may find other people who are in the same scenario and seen how they have reacted to using find me football.
+- Reviews will provide the user with what other users have experienced. 
+- May find other people who are in the same scenario and seen how they have reacted to using find me football.
 
 ___
 ___
@@ -58,10 +58,10 @@ ___
 Footer styled the same as the header. Contains links for the user to connect with Find Me Football on social media
 
 ![screenshot of social media links in the footer](assets/images/social-media-links.png)
-- footer at the bottom of the page contains links direct to find-me-football on their social media pages.
-- social media links become larger when hovered over.
-- features on all the pages of the website for easy access and availability.
-- links open in a new page for a user friendly experience.
+- Footer at the bottom of the page contains links direct to find-me-football on their social media pages.
+- Social media links become larger when hovered over.
+- Features on all the pages of the website for easy access and availability.
+- Links open in a new page for a user friendly experience.
 ___
 ___
 ### **Find Game** ###
@@ -81,8 +81,8 @@ Find team page which provides the user with an explanation as to how we find the
 
 ![screenshot of find team page on website](assets/images/find-team-ss.png)
 
-- provides the user with an explanation as to how we find teams for them.
-- shows the user local teams we have worked with in the past.
+- Provides the user with an explanation as to how we find teams for them.
+- Shows the user local teams we have worked with in the past.
 - This will be updated with more and more teams when find me football works with more teams. This will show users that we are popular with many teams around manchester.
 
 ___
@@ -94,8 +94,10 @@ Sign up page for users to sign up to finding a game or team or both. Once regist
 
 ![screenshot of sign up form](assets/images/form-ss.png)
 
-- gives the user the opportunity to provide find me football with their contact details so that they can get more involved with the football provided.
-- radio button set to both in case the user forgets to choose.
+- Gives the user the opportunity to provide find me football with their contact details so that they can get more involved with the football provided.
+- Radio button set to both in case the user forgets to choose.
+- First Name, Last Name and Email address are set as a required field so that the user can't forget to insert information there when submitting the form.
+- Reset button has been included in case user makes a mistake and wants to start the form again.
 
 ___
 ___
@@ -105,17 +107,17 @@ ___
 Images on pages of the website
 
 ![picture used on website 2 boys playing in the park](assets/images/park-football.jpg)
-- all images used on the website are football related. This should give the user a clear understanding of what football the website is about.
+- All images used on the website are football related. This should give the user a clear understanding of what football the website is about.
 
 ___
 ___
 
 ## **Features For Future** ##
 ___
--interactable google maps for the different locations where the parks are located.
-- a live chat for people to look for players in real time.
-- drop down menu on the form which will disregard options based on their choices (so if you chose a location only the dates and times that are available to that location would show as an option.)
-- a video of a football game organised by find-me-football so the user could find real footage on the website rather than go to youtube.
+- A live chat for people to look for players in real time.
+- Drop down menu on the form which will disregard options based on their choices (so if you chose a location only the dates and times that are available to that location would show as an option.)
+- A video of a football game organised by find-me-football so the user could find real footage on the website rather than go to youtube.
+- A live update on how many people have signed up to games that week.
 ___
 ___
 ## **Testing** ##
@@ -125,48 +127,48 @@ I created media queries so that no matter the width size, with that being a phon
 
 ### **Home Page** ###
 
-- nav bar will hide the seach word so that the links are smaller without changing the font size.
+- Nav bar will hide the seach word so that the links are smaller without changing the font size.
 - The reviews will would be on top of each other instead of side by side depending on screen width. 
-- text and social media links will be smaller depending on the screen size.
-- lighthouse testing shows that the homepage is compatible.
+- Text and social media links will be smaller depending on the screen size.
+- Lighthouse testing shows that the homepage is compatible.
 
 ![screenshot of lighthouse testing for homepage (index.html)](assets/images/lighthouse-1.png)
 
 ### **Find Game & Find Team Pager** ###
-- font and elements will get smaller with the screen size getting smaller. 
-- the portrait image is replaced with a horizontal image.
-- lighthouse testing shows that the homepage is compatible.
+- Font and elements will get smaller with the screen size getting smaller. 
+- The portrait image is replaced with a horizontal image.
+- Lighthouse testing shows that the homepage is compatible.
 
 lighthouse testing for 'find game page'
 
 ![screenshot of lighthouse testing for find-game page](assets/images/lighthouse-2.png)
 
-- originally the testing came out poor for performance for the 'find team page'
+- Originally the testing came out poor for performance for the 'find team page'
 ![screenshot of poor performance for find-game page](assets/images/lighthouse-3-bad.png)
 
-- after a changed the image to a png image the testing came out good.
+- After I changed the image to a png image the testing came out good.
 ![screenshot of good performance for find-game page](assets/images/lighthouse-3-good.png)
 
 ### **sign-up page** ###
-- font and elements will get smaller with the screen size getting smaller.
-- the form will be responsive to max-wiidth and also max-height as the header and footer on this page are both fixed.
-- lighthouse testing shows that the homepage is compatible.
+- Font and elements will get smaller with the screen size getting smaller.
+- The form will be responsive to max-wiidth and also max-height as the header and footer on this page are both fixed.
+- Lighthouse testing shows that the homepage is compatible.
 ![screenshot of good performance for sign-up page](assets/images/lighthouse-4.png)
 
 ### **Validators** ###
-- validator passed for html w3c validator - no errors
-- validator passed for css official (jigsaw) validator - no errors
+- Validator passed for html w3c validator - no errors
+- Validator passed for css official (jigsaw) validator - no errors
 
 ___
 ___
 
 ## **Bugs** ##
 
-- there was a bug where once deployed on a smaller device the home page content would only show on half of the screen. I solved this by adding media queries to smaller screen sizes.
-- links to the pages in the header would be blue once page opened rather than black. They would change to black once I had used the link. I solved this issue by adding color: black to all the a elements. 
-- there was a bug where I had images in a polaroid picture styling for when deployed through git hub. This did not show when testing using python3 -m http.server. These images were removed.
+- There was a bug where once deployed on a smaller device the home page content would only show on half of the screen. I solved this by adding media queries to smaller screen sizes.
+- Links to the pages in the header would be blue once page opened rather than black. They would change to black once I had used the link. I solved this issue by adding color: black to all the a elements. 
+- There was a bug where I had images in a polaroid picture styling for when deployed through git hub. This did not show when testing using python3 -m http.server. These images were removed.
 ![screen shot of polaroid pictures working](assets/images/polaroid-pictures-working.png) ![screen shot of polaroid pictures working](assets/images/polaroid-pictures-bug.png)
-- the sign up form wasn't very reponsive to different max-wdith sizes. The bottom part of the form would display under the fixed footer. I solved this by adding a max height media querie so that the form would be reponsive to height as well as width.
+- The sign up form wasn't very reponsive to different max-wdith sizes. The bottom part of the form would display under the fixed footer. I solved this by adding a max height media querie so that the form would be reponsive to height as well as width.
 
 ___
 ___
@@ -191,8 +193,8 @@ Here is the link to [Find-Me-Football](https://josh-wickens.github.io/find-me-fo
 
 When adding code, in the terminal commit all changes using 
 
-1. git add .
-2. git commit -m "insert change here"
+1. Git add .
+2. Git commit -m "insert change here"
 
 ___
 ___
@@ -233,54 +235,3 @@ CSS & Html
 
 ___
 ___
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
