@@ -38,8 +38,6 @@ ___
 ___
 ### **What Is Find Me Football** ###
 The section will explain to the user in more detail to what find me football is. It will contain a description as to what each page is about. 
-![screenshot of what find me football is](assets/images/what-is-fmf.png)
-- 2 polaroid styled images. This will give the photos a familiar feel as this is the type of photo which is taken by families.
 - description of the different pages in more details. This will help the user understand what the different pages contain.
 ___
 ___
@@ -156,8 +154,17 @@ lighthouse testing for 'find game page'
 ![screenshot of good performance for sign-up page](assets/images/lighthouse-4.png)
 
 ### **Validators** ###
-- validator passed for html 
-- validator passed for css
+- validator passed for html w3c validator - no errors
+- validator passed for css official (jigsaw) validator - no errors
+
+___
+___
+
+## **bugs** ##
+
+- there was a bug where once deployed on a smaller device the home page content would only show on half of the screen. I solved this by adding media queries to smaller screen sizes.
+- there was a bug where I had images in a polaroid picture styling for when deployed through git hub. This did not show when testing using python3 -m http.server. These images were removed.
+![screen shot of polaroid pictures working](assets/images/polaroid-pictures-working.png) ![screen shot of polaroid pictures working](assets/images/polaroid-pictures-bug.png)
 
 
 
