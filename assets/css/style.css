@@ -868,6 +868,25 @@ input[type=reset]:hover {
     .flex-text-right {
         font-size: 80%;
     }
+
+    form {
+        font-size: 80%;
+    }
+
+    .form-flex {
+        margin: 4px;
+    }
+
+    .sign-up-form {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    input[type=text],
+    input[type=email] {
+        padding: 3px 6px;
+    }
+
 }
 
 /* Media Queries for max-heights */
