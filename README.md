@@ -123,8 +123,30 @@ ___
 ## Testing ##
 ___
 
+I created media queries so that no matter the width size, with that being a phone size, latop size or even just minimised widths of a computer screen; the code will cause the website to be responsive so that all elements are responsive to that width or height.
+
 ### **Home Page** ###
-- 
+
+- nav bar will hide the seach word so that the links are smaller without changing the font size.
+- The reviews will would be on top of each other instead of side by side depending on screen width. 
+- text and social media links will be smaller depending on the screen size.
+- lighthouse testing shows that the homepage is compatible.
+
+![screenshot of lighthouse testing for homepage (index.html)](assets/images/lighthouse-1.png)
+
+### **Find Game & Find Team Pager** ###
+- font and elements will get smaller with the screen size getting smaller. 
+- the portrait image is replaced with a horizontal image.
+- lighthouse testing shows that the homepage is compatible.
+
+![screenshot of lighthouse testing for find-game page](assets/images/lighthouse-2.png)
+
+
+
+
+
+
+
 
 
 
