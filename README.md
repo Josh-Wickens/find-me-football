@@ -160,13 +160,81 @@ lighthouse testing for 'find game page'
 ___
 ___
 
-## **bugs** ##
+## **Bugs** ##
 
 - there was a bug where once deployed on a smaller device the home page content would only show on half of the screen. I solved this by adding media queries to smaller screen sizes.
 - links to the pages in the header would be blue once page opened rather than black. They would change to black once I had used the link. I solved this issue by adding color: black to all the a elements. 
 - there was a bug where I had images in a polaroid picture styling for when deployed through git hub. This did not show when testing using python3 -m http.server. These images were removed.
 ![screen shot of polaroid pictures working](assets/images/polaroid-pictures-working.png) ![screen shot of polaroid pictures working](assets/images/polaroid-pictures-bug.png)
 - the sign up form wasn't very reponsive to different max-wdith sizes. The bottom part of the form would display under the fixed footer. I solved this by adding a max height media querie so that the form would be reponsive to height as well as width.
+
+___
+___
+
+## **Testing** ##
+- I have tested the website on Chrome, Edge, Firefox and safari. All pages and links work.
+- I have tested the website on laptop and phone and everything is responsive and readable.
+- The form is user friendly on laptop and phone and compatible on multiple browsers.
+- I tested the compatibility using devtools so that it even works on non standard screen sizes in case the website screen size is manually changed.
+___
+___
+## **Deployment** ##
+I deployed the website using GitHub. Steps taken:
+1. Go on to the GitHub website.
+2. Go on to the settings tab of the depository 
+3. Select pages on the section tab.
+4. Select the main branch.
+5. Save.
+6. Link to website is then provided.
+
+Here is the link to [Find-Me-Football](https://josh-wickens.github.io/find-me-football/)
+
+When adding code, in the terminal commit all changes using 
+
+1. git add .
+2. git commit -m "insert change here"
+
+___
+___
+
+## **Credits** ##
+___
+### **Images** ###
+Free images were taken from
+- [freeimages.com](https://www.freeimages.com/)
+- [pexels.com](https://www.pexels.com/)
+
+### **Code** ###
+The standard border looked a bit bland. I found code which would provide the border with a comic book effect which made the content look more appealing.
+- [codepen.io](https://codepen.io/mp/pen/kBEeKw) <br>
+
+The effect when hovering over a social media link to make it expand. Although it was fine without, it made the social media links more interactive for the user.
+- [w3schools.com](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)<br>
+
+### **Fonts** ###
+
+I used google fonts for selecting my fonts. 
+- [fonts.google.com](https://fonts.google.com/)
+
+### **Icons** ###
+
+I used fontawesome for my social media icons.
+- [fontawesome.com/icons](https://fontawesome.com/icons)
+
+### **Help and Guides** ###
+I watched videos and searched the internet for help with my website. 
+
+Flexboxs
+- [Web Dev Simplified - Youtube channel](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=216s)
+
+CSS & Html 
+
+- [w3schools](https://www.w3schools.com/)
+
+___
+___
+ 
+
 
 
 
