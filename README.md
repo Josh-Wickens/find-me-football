@@ -120,7 +120,7 @@ ___
 - a video of a football game organised by find-me-football so the user could find real footage on the website rather than go to youtube.
 ___
 ___
-## Testing ##
+## **Testing** ##
 ___
 
 I created media queries so that no matter the width size, with that being a phone size, latop size or even just minimised widths of a computer screen; the code will cause the website to be responsive so that all elements are responsive to that width or height.
@@ -153,6 +153,13 @@ lighthouse testing for 'find game page'
 - font and elements will get smaller with the screen size getting smaller.
 - the form will be responsive to max-wiidth and also max-height as the header and footer on this page are both fixed.
 - lighthouse testing shows that the homepage is compatible.
+![screenshot of good performance for sign-up page](assets/images/lighthouse-4.png)
+
+### **Validators** ###
+- validator passed for html 
+- validator passed for css
+
+
 
 
 
