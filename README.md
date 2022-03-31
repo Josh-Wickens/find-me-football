@@ -163,8 +163,12 @@ ___
 ## **bugs** ##
 
 - there was a bug where once deployed on a smaller device the home page content would only show on half of the screen. I solved this by adding media queries to smaller screen sizes.
+- links to the pages in the header would be blue once page opened rather than black. They would change to black once I had used the link. I solved this issue by adding color: black to all the a elements. 
 - there was a bug where I had images in a polaroid picture styling for when deployed through git hub. This did not show when testing using python3 -m http.server. These images were removed.
 ![screen shot of polaroid pictures working](assets/images/polaroid-pictures-working.png) ![screen shot of polaroid pictures working](assets/images/polaroid-pictures-bug.png)
+- the sign up form wasn't very reponsive to different max-wdith sizes. The bottom part of the form would display under the fixed footer. I solved this by adding a max height media querie so that the form would be reponsive to height as well as width.
+
+
 
 
 
