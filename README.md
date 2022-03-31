@@ -107,6 +107,19 @@ Images on pages of the website
 ___
 ___
 
+## **Features For Future** ##
+___
+-interactable google maps for the different locations where the parks are located.
+- a live chat for people to look for players in real time.
+- drop down menu on the form which will disregard options based on their choices (so if you chose a location only the dates and times that are available to that location would show as an option.)
+- a video of a football game organised by find-me-football so the user could find real footage on the website rather than go to youtube.
+___
+___
+## Testing ##
+
+___
+
+
 
 
 
