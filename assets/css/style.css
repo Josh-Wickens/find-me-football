@@ -235,38 +235,6 @@ a:hover {
 
 /*images inside the website description*/
 
-#what-is-fmf-image-top-left img {
-    float: left;
-    width: 200px;
-    height: 250px;
-    padding: 10px 10px 20px 10px;
-    border: 1px solid #BFBFBF;
-    background-color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    -ms-transform: rotate(-8deg);
-    /* IE 9 */
-    -webkit-transform: rotate(-8deg);
-    /* Safari */
-    transform: rotate(-8deg);
-
-}
-
-#what-is-fmf-image-top-right img {
-    float: right;
-    width: 200px;
-    height: 250px;
-    padding: 10px 10px 20px 10px;
-    border: 1px solid #BFBFBF;
-    background-color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    -ms-transform: rotate(7deg);
-    /* IE 9 */
-    -webkit-transform: rotate(7deg);
-    /* Safari */
-    transform: rotate(7deg);
-
-}
-
 #description-container {
     font-size: 150%;
     padding: 20px;
@@ -661,18 +629,6 @@ input[type=reset]:hover {
 
     }
 
-    #what-is-fmf-image-top-left {
-        position: absolute;
-        left: 70%;
-
-    }
-
-    #what-is-fmf-image-top-right {
-        position: absolute;
-        left: 10%;
-
-    }
-
     .form-flex {
         font-size: 95%;
     }
@@ -691,11 +647,6 @@ input[type=reset]:hover {
         left: 5%;
     }
 
-    #what-is-fmf-image-top-left {
-        position: absolute;
-        left: 60%;
-
-    }
 }
 
 /* for screen sizes 685px and down */
@@ -726,17 +677,6 @@ input[type=reset]:hover {
         border-radius: 0%;
         left: 25%;
 
-    }
-
-    #what-is-fmf-image-top-left {
-        position: absolute;
-        left: 55%;
-
-    }
-
-    #what-is-fmf-image-top-right {
-        position: absolute;
-        left: 7%;
     }
 
     #description-heading-container h2 {
@@ -775,20 +715,6 @@ input[type=reset]:hover {
 
     }
 
-    #what-is-fmf-image-top-left {
-        position: absolute;
-        left: 45%;
-        display: none;
-
-    }
-
-    #what-is-fmf-image-top-right {
-        position: absolute;
-        left: 2%;
-        display: none;
-
-    }
-
     #slogan {
         top: 200px;
 
@@ -811,28 +737,6 @@ input[type=reset]:hover {
         padding: 10px;
         margin: 20px 20px 20px 20px;
         justify-content: center;
-
-    }
-
-    #what-is-fmf-image-top-left img {
-        width: 180px;
-        height: 220px;
-        -ms-transform: rotate(-1deg);
-        /* IE 9 */
-        -webkit-transform: rotate(-1deg);
-        /* Safari */
-        transform: rotate(-1deg);
-
-    }
-
-    #what-is-fmf-image-top-right img {
-        width: 180px;
-        height: 220px;
-        -ms-transform: rotate(1deg);
-        /* IE 9 */
-        -webkit-transform: rotate(1deg);
-        /* Safari */
-        transform: rotate(1deg);
 
     }
 
